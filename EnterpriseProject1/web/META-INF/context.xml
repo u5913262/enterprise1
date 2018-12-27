@@ -1,0 +1,6 @@
+<Context>
+    <Resource name="jdbc/cosmetic" auth="Container" type="javax.sql.DataSource"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+              username="root" password="" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://35.184.178.240/cosmetic"/>
+</Context>
